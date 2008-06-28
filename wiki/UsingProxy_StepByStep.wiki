@@ -1,5 +1,5 @@
-#labels Featured
 #summary 图文详解代理的使用方法。无需背景知识，从入门到精通。
+#labels Featured
 
 *说明*：本文介绍使用浏览器访问网站时如何使用代理，其它应用您可能需要参考其它文章。
 
@@ -164,13 +164,5 @@ HTTP 代理: 127.0.0.1
    如此，设置终于彻底完成了！你尽可以随意去冲浪，不论是 mozilla.org 自身还是任何其它网站，只要引用了 mozilla.org 的资源都会使用代理访问，而其它的则直接连接。您不需要在不同代理之间手动切换。
 
    当然，现实情况是，您肯定还有别的网站需要使用代理。也就是说，您需要按照刚刚添加模板的方法，再添加其它需要使用代理访问的站点。这也就是 !FoxyProxy 的一个美中不足，虽然强大却有点复杂。
-
-   这里有个 !FoxyProxy 的配置文件，也许对您有点用：http://gappproxy.googlecode.com/svn/wiki/images/foxyproxy.xml.zip
-
-   使用方法是，解压后，替换原 foxyproxy.xml 文件。
-
-   该文件在 GNU/Linux 下位于：/home/user-name/.mozilla/firefox/xxxxxxxx.default/
-
-   在 Windows Vista 下位于（工具栏－文件夹－显示隐藏文件）：C:\Users\user-name\AppData\Roaming\Mozilla\Firefox\Profiles\xxxxxxxx.default\
 
 =Enjoy :)=
