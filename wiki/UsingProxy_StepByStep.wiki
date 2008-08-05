@@ -87,7 +87,7 @@ function FindProxyForURL(url, host){
 }
 }}}
 
-       关于 PAC 更详尽的说明，请参见这里：http://wp.netscape.com/eng/mozilla/2.0/relnotes/demo/proxy-live.html
+       关于 PAC 更详尽的说明，请参见这里：http://en.wikipedia.org/wiki/Proxy_auto-config
 
 = 四、Firefox 扩展可助您更方便地使用代理 =
 
