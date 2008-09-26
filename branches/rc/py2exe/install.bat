@@ -1,7 +1,7 @@
 @echo sc stop GAppProxy > Register_As_Server.bat
 @echo sc delete GAppProxy >> Register_As_Server.bat
 @echo sc create GAppProxy binPath= %cd%\srvany.exe start= auto >> Register_As_Server.bat
-@echo sc description GAppProxy "HTTP ´úÀí·şÎñ - GAppProxy ÎªÄúĞ§ÀÍ¡£" >> Register_As_Server.bat
+@echo sc description GAppProxy "HTTP ä»£ç†æœåŠ¡ - GAppProxy ä¸ºæ‚¨æ•ˆåŠ³ã€‚" >> Register_As_Server.bat
 @echo reg add HKLM\SYSTEM\CurrentControlSet\Services\GAppProxy\Parameters /v Application /d %cd%\proxy.exe >> Register_As_Server.bat /f
 @echo reg add HKLM\SYSTEM\CurrentControlSet\Services\GAppProxy\Parameters /v AppDirectory /d %cd% >> Register_As_Server.bat /f
 @echo sc start GAppProxy >> Register_As_Server.bat
@@ -9,8 +9,8 @@
 @echo sc stop GAppProxy > Delete_GAppProxy_Server.bat
 @echo sc delete GAppProxy >> Delete_GAppProxy_Server.bat
 
-@echo ³É¹¦ÁË¡«£¡
+@echo æˆåŠŸäº†ï½ï¼
 @echo.
-@echo ×îºó£¬ÇëÒÔ *¹ÜÀíÔ±Éí·İ* ÔËĞĞÕâ¸öÎÄ¼ş£ºRegister_As_Server.bat
+@echo æœ€åï¼Œè¯·ä»¥ *ç®¡ç†å‘˜èº«ä»½* è¿è¡Œè¿™ä¸ªæ–‡ä»¶ï¼šRegister_As_Server.bat
 @echo.
 @pause

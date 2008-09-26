@@ -1,5 +1,5 @@
 #!/usr/bin/python
-# -*- coding: cp936 -*-
+# -*- coding: utf8 -*-
 
 from distutils.core import setup
 import py2exe
@@ -20,7 +20,7 @@ setup(
     console = ['proxy.py'],
     
     data_files = [
-        ('',['install.bat', 'proxy.conf', 'srvany.exe', 'หต ร๗.txt']) #,()
+        ('',['install.bat', 'proxy.conf', 'srvany.exe', 'ReadMe.txt']) #,()
     ]
 )
 
