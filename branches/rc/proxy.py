@@ -16,8 +16,8 @@
 #                                                                           #
 #############################################################################
 
-import BaseHTTPServer, SocketServer, urllib, urllib2, urlparse, zlib, \
-socket, random
+import BaseHTTPServer, os, random, socket, SocketServer, sys
+import urllib, urllib2, urlparse, zlib
 try:
     import ssl
     SSLEnable = True
@@ -240,6 +240,11 @@ def parseConf(confFile):
     global localProxy, fetchServer
 
     fetchServers = []
+    
+    if(hasattr(sys, 'frozen')): # py2exe
+        confFile = os.path.join(os.path.dirname(sys.path[0]), confFile)
+    else:
+        confFile = os.path.join(sys.path[0], confFile)
 
     # read config file
     fp = open(confFile, 'r')
@@ -263,6 +268,7 @@ def parseConf(confFile):
             localProxy = value
         elif name == 'fetch_server':
             fetchServers.append(value)
+    fp.close()
 
     # check
     if len(fetchServers) == 0:
@@ -279,15 +285,14 @@ def parseConf(confFile):
 
 
 if __name__ == '__main__':
+    print '--------------------------------------------'
+    print 'HTTP  Enabled: YES'
     if SSLEnable:
-        print '--------------------------------------------'
-        print 'HTTP Enabled : YES'
         print 'HTTPS Enabled: YES'
     else:
-        print 'HTTP Enabled : YES'
         print 'HTTPS Enabled: NO'
 
-    if parseConf('./proxy.conf'):
+    if parseConf('proxy.conf'):
         print 'Local Proxy  : %s' % localProxy
         print 'Fetch Server : %s' % fetchServer
         print '--------------------------------------------'
