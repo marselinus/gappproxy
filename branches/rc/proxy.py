@@ -179,7 +179,6 @@ class LocalProxyHandler(BaseHTTPServer.BaseHTTPRequestHandler):
                                    'postdata': postData})
         # accept-encoding: identity, *;q=0
         # connection: close
-        #request = urllib2.Request('http://localhost:8080/fetch.py')
         request = urllib2.Request(fetchServer)
         request.set_proxy('www.google.cn:80', scm)
         request.add_header('Accept-Encoding', 'identity, *;q=0')
@@ -248,7 +247,12 @@ def parseConf(confFile):
         confFile = os.path.join(sys.path[0], confFile)
 
     # read config file
-    fp = open(confFile, 'r')
+    try:
+        fp = open(confFile, 'r')
+    except:
+        fetchServer = 'http://localhost:8080/fetch.py'
+        return True
+        
     while True:
         line = fp.readline()
         if line == '':
