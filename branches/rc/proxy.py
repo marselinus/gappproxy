@@ -181,6 +181,7 @@ class LocalProxyHandler(BaseHTTPServer.BaseHTTPRequestHandler):
         # connection: close
         #request = urllib2.Request('http://localhost:8080/fetch.py')
         request = urllib2.Request(fetchServer)
+        request.set_proxy('www.google.cn:80', scm)
         request.add_header('Accept-Encoding', 'identity, *;q=0')
         request.add_header('Connection', 'close')
         # create new opener
