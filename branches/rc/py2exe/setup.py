@@ -13,14 +13,14 @@ setup(
     },
 
     name = "GAppProxy",
-    version = "2008.09.20",
+    version = "2008.10.15",
     description = "HTTP Proxy Service. Port: 8000",
 
     zipfile = None,
     console = ['proxy.py'],
     
     data_files = [
-        ('',['install.bat', 'proxy.conf', 'srvany.exe', 'ReadMe.txt']) #,()
+        ('',['Install.bat', 'proxy.conf', 'ReadMe.txt', 'srvany.exe', 'UnInstall.bat']) #,()
     ]
 )
 

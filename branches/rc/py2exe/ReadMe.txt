@@ -4,16 +4,16 @@ GAppProxy 使用说明：
 
 2、如果您觉得每次都要点击太麻烦了，或者您觉得打开一个黑黑的窗口既占地方又难看，您可以将 GAppProxy 注册为系统服务。
 
-方法是：双击 install.bat，根据提示再运行一个文件就可以了。
+方法是：以 *管理员身份* 运行 Install.bat。
 
-注册后，它会静悄悄地自动运行。GAppProxy 运行后会占用 500K — 5M 的内存，如果您的内存资源不是特别紧张，建议您采用这种方式。
+注册后，它会静悄悄地自动运行。GAppProxy 运行后会占用 500K ― 5M 的内存，如果您的内存资源不是特别紧张，建议您采用这种方式。
 
 
 以下为细节信息，不感兴趣可以不必阅读
 -------------------------------------------------------------------------------
-1、双击 install.bat 后，它会提示您以 ***管理员身份*** 运行生成的 Register_As_Server.bat 文件。如果您没有管理员权限，您只能采用第一种使用方式（每次使用时手动运行 proxy.exe）。
+1、注册为系统服务需要有管理员权限，否则，您只能采用第一种使用方式（每次使用时手动运行 proxy.exe）。
 2、您随时可以输入命令 services.msc 查看和管理所有的系统服务。
-3、如果您想删除 GAppProxy 服务，请以 *管理员身份* 运行 Delete_GAppProxy_Server.bat（install.bat 运行后创建）。
+3、如果您想删除 GAppProxy 服务，请以 *管理员身份* 运行 UnInstall.bat。
 4、如果您想更改 GAppProxy 存放的目录，请按上面的方法先删除服务。移到新目录后，再重新注册一次就可以了。
 5、proxy.conf 是代理配置文件，纯文本格式。你可以用“记事本”打开、修改它。
 6、GAppProxy 服务运行后，除自身的 proxy.exe 进程，还会启动一个 srvany.exe 进程（占用的资源可以忽略不计）。该文件是 Windows Resource Kit Tools 的一部分，它的下载地址是：http://www.microsoft.com/downloads/details.aspx?FamilyID=9d467a69-57ff-4ae7-96ee-b18c4790cffd&DisplayLang=en
@@ -22,5 +22,5 @@ GAppProxy 使用说明：
 Enjoy :-)
 
 当前版本：svn r22
-编译时间：2008.09.20
+编译时间：2008.10.15
 项目主页：http://GAppProxy.GoogleCode.com/
