@@ -33,4 +33,6 @@ GAppProxy的新Windows软件包因为其体积较大，所以采用7zip格式压
 
 2，正确设置浏览器使用代理，以IE为例（GAppProxy的默认地址端口为127.0.0.1:8000），IE中菜单选择 工具-->Internet选项-->连接-->局域网设置，如图：
 
+至此，如果你能通过IE访问网页则GAppProxy设置成功。
 
+有问题请到 http://groups.google.com/group/gappproxy 留言，谢谢。
