@@ -7,7 +7,9 @@ GAppProxy的新Windows软件包因为其体积较大，所以采用7zip格式压
 *特别提醒：安全起见，请到GAppProxy项目的下载页下载: http://code.google.com/p/gappproxy/downloads/list
 
 =使用=
-双击解压后目录下的gui.exe文件运行GAppProxy，默认初始界面如图，整体内容分两部分：
+使用设置包括两步：
+
+1，双击解压后目录下的gui.exe文件运行GAppProxy，默认初始界面如图，整体内容分两部分：
 
 ==setup栏==
  * setup栏可根据自身网络状况进行调整，一般来说默认配置即可。
@@ -28,3 +30,7 @@ GAppProxy的新Windows软件包因为其体积较大，所以采用7zip格式压
  * About按钮：点击显示当前GAppProxy版本等相关信息。
 
  * Quit按钮：点击弹出确认退出对话框，确认则退出GAppProxy。
+
+2，正确设置浏览器使用代理，以IE为例（GAppProxy的默认地址端口为127.0.0.1:8000），IE中菜单选择 工具-->Internet选项-->连接-->局域网设置，如图：
+
+
