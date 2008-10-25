@@ -2,6 +2,6 @@
 为方便Windows用户使用，GAppProxy从svn r38版开始为其客户端（proxy.py）增加了一个简单图形界面（GUI）。该图形界面使用PyQt4编写，主要目的是避免Windows下的黑窗口（command）运行模式。
 
 =下载安装=
-* GAppProxy的新Windows安装包因为其体积较大，所以采用7zip格式压缩，为了避免客户端安装7zip压缩软件，压缩包使用自解压的方式，即为一个可执行文件（exe）。
+GAppProxy的新Windows安装包因为其体积较大，所以采用7zip格式压缩，为了避免客户端安装7zip压缩软件，压缩包使用自解压的方式，即为一个可执行文件（exe）。
 
-* 特别提醒：安全起见，请到GAppProxy项目的下载页下载: http://code.google.com/p/gappproxy/downloads/list
+*特别提醒：安全起见，请到GAppProxy项目的下载页下载: http://code.google.com/p/gappproxy/downloads/list
