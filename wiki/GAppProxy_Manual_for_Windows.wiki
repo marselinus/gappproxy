@@ -9,7 +9,12 @@ GAppProxy的新Windows软件包因为其体积较大，所以采用7zip格式压
 *特别提醒：安全起见，请到GAppProxy项目的下载页下载: http://code.google.com/p/gappproxy/downloads/list
 
 =使用=
-使用设置包括两步，*第一步一般不需要改动默认设置*：
+使用设置包括两步:
+
+ * 双击运行gui.exe。
+ * 设置浏览器使用代理，代理地址端口为127.0.0.1:8000。
+
+详细步骤及操作说明如下：
 
 1，双击解压后目录下的gui.exe文件运行GAppProxy，默认初始界面如图，整体内容分两部分：
 
@@ -52,6 +57,6 @@ http://gappproxy.googlecode.com/svn/wiki/images/GAppProxy_Manual_for_Windows/9.P
 
 http://gappproxy.googlecode.com/svn/wiki/images/GAppProxy_Manual_for_Windows/10.PNG
 
-至此，如果你能通过IE访问网页则GAppProxy设置成功。
+至此，如果能通过IE访问网页则GAppProxy设置成功。这是要是访问 http://www.ip138.com 等显示自身IP的网页，你会发现你来自不知道是哪了，呵呵。
 
 有问题请到 http://groups.google.com/group/gappproxy 留言，谢谢。
