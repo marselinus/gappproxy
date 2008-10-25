@@ -1,4 +1,4 @@
-#summary GAppProxy Windows客户端的使用说明
+﻿#summary GAppProxy Windows客户端的使用说明
 
 =简介=
 为方便Windows用户使用，GAppProxy从svn r38版开始为其客户端（proxy.py）增加了一个简单图形界面（GUI）。该图形界面使用PyQt4编写，主要目的是避免Windows下的黑窗口（command）运行模式。
@@ -12,28 +12,37 @@ GAppProxy的新Windows软件包因为其体积较大，所以采用7zip格式压
 使用设置包括两步：
 
 1，双击解压后目录下的gui.exe文件运行GAppProxy，默认初始界面如图，整体内容分两部分：
+http://gappproxy.googlecode.com/svn/wiki/images/GAppProxy_Manual_for_Windows/2.PNG
 
 ==setup栏==
  * setup栏可根据自身网络状况进行调整，一般来说默认配置即可。
 
  * 如果使用GAppProxy前本地浏览网页需要在浏览器中设置代理，则需要选中“Use Local Proxy”并在其后的输入框中填写代理地址，例如：
+http://gappproxy.googlecode.com/svn/wiki/images/GAppProxy_Manual_for_Windows/6.PNG
 
  * 如果你要使用指定的GAppProxy FetchServer，同样选中“Use Fetch Server”并填写其后的输入框，例如：
+http://gappproxy.googlecode.com/svn/wiki/images/GAppProxy_Manual_for_Windows/7.PNG
 
  * 以上两部分填写完成后必须分别点击“Save”、“Quit”保存设置并重新启动GAppProxy方可生效。
 
 ==其他按钮==
  * Status按钮：点击显示当前Proxy核心的运行状态，“running”表示Proxy运行正常，“exit”表示Proxy运行异常已退出，可能原因主要是网络不通等，具体可查看运行文件目录下的.log文件，显示分别如图：
+http://gappproxy.googlecode.com/svn/wiki/images/GAppProxy_Manual_for_Windows/3.PNG
+http://gappproxy.googlecode.com/svn/wiki/images/GAppProxy_Manual_for_Windows/4.PNG
 
  * Hide按钮：点击隐藏主窗口并且在系统右下角托盘栏增加一个绿圈状图标，在该图标上点击右键菜单的“Restore”项可以恢复显示主窗口，如图：
+http://gappproxy.googlecode.com/svn/wiki/images/GAppProxy_Manual_for_Windows/5.PNG
 
  * Help按钮：点击显示一个简要帮助。
+http://gappproxy.googlecode.com/svn/wiki/images/GAppProxy_Manual_for_Windows/8.PNG
 
  * About按钮：点击显示当前GAppProxy版本等相关信息。
+http://gappproxy.googlecode.com/svn/wiki/images/GAppProxy_Manual_for_Windows/9.PNG
 
  * Quit按钮：点击弹出确认退出对话框，确认则退出GAppProxy。
 
 2，正确设置浏览器使用代理，以IE为例（GAppProxy的默认地址端口为127.0.0.1:8000），IE中菜单选择 工具-->Internet选项-->连接-->局域网设置，如图：
+http://gappproxy.googlecode.com/svn/wiki/images/GAppProxy_Manual_for_Windows/10.PNG
 
 至此，如果你能通过IE访问网页则GAppProxy设置成功。
 
