@@ -28,7 +28,7 @@ http://gappproxy.googlecode.com/svn/wiki/images/GAppProxy_Manual_for_Windows/2.P
 
 http://gappproxy.googlecode.com/svn/wiki/images/GAppProxy_Manual_for_Windows/6.PNG
 
- * 如果你需要使用指定的GAppProxy FetchServer，（这一般发生在你自己在GAE上架设了FetchServer之后，如果您看不懂我说的意思，请忽略这个选项。）请选中“Use Fetch Server”并填写其后的输入框，例如：
+ * 如果你需要使用指定的GAppProxy FetchServer，（这种情况一般发生在你自己在GAE上架设了FetchServer之后，如果你看不懂我说的意思，请略过这个选项。）请选中“Use Fetch Server”并填写其后的输入框，例如：
 
 http://gappproxy.googlecode.com/svn/wiki/images/GAppProxy_Manual_for_Windows/7.PNG
 
