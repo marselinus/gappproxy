@@ -58,6 +58,6 @@ http://gappproxy.googlecode.com/svn/wiki/images/GAppProxy_Manual_for_Windows/9.P
 
 http://gappproxy.googlecode.com/svn/wiki/images/GAppProxy_Manual_for_Windows/10.PNG
 
-至此，如果能通过IE访问网页则GAppProxy设置成功。这是要是访问 http://www.ip138.com 等显示自身IP的网页，你会发现你来自不知道是哪了，呵呵。
+至此，如果能通过IE访问网页则GAppProxy设置成功。这时要是访问 http://www.ip138.com 等显示自身IP的网页，你会发现你来自不知道是哪了，呵呵。
 
 有问题请到 http://groups.google.com/group/gappproxy 留言，谢谢。
