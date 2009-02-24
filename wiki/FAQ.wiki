@@ -1,0 +1,33 @@
+#Frequently Asked Questions
+
+==1、为什么下载后文件打不开/出错？==
+
+这是因为下载的原因，请换用一个支持续传的下载工具试试（专门的下载工具基本上都支持续传），不要用浏览器直接下载。
+
+每个下载的文件，点击说明后，都会有一个校验码。如果在 SHA1 Checksum 匹配的情况下，仍然出现错误，请和我们联系，谢谢。：）
+
+==2、Fetch Server 是什么东西？==
+
+GAppProxy 的代理分为两部分：
+
+客户端：要使用 GAppProxy 的代理，这个是必须的。它运行在您的电脑上，随时准备为您服务；
+
+服务端：这个是可选的。它运行在 Google App Engine 上，为 GAppProxy 的客户端提供服务。
+
+您下载客户端后即可立即使用 GAppProxy 的代理，它会使用默认的 Fetch Server。但是基于以下理由，我们建议您架设自己的 Fetch Server：
+
+ * 默认的 Fetch Server 是很多人公用的，因此没有您自己的 Fetch Server 速度快；
+
+ * 您能对自己的 Fetch Server 进行更多的控制，了解它的运行状况；
+
+ * 给默认的 Fetch Server 减点压：）
+
+==3、建自己的 Fetch Server 收费的吗？==
+
+不收：）
+
+ * GAppProxy 的服务端程序和客户端一样是自由/开源的；
+
+ * Google App Engine 是免费注册的。
+
+==4、怎么建自己的 Fetch Server？==
