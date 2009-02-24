@@ -33,4 +33,8 @@ GAppProxy 的代理分为两部分：
 
 ==4、怎么建自己的 Fetch Server？==
 
+==5、GAppProxy 的代理安全吗？==
+
+==6、安全连接失败 / 安全证书有问题？==
+
 To Be Continued...
