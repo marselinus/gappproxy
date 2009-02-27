@@ -13,7 +13,7 @@ GAppProxy 的代理分为两部分：
 
 客户端：要使用 GAppProxy 的代理，这个是必须的。它运行在您的电脑上，随时准备为您服务；
 
-服务端：这个是可选的。它运行在 Google App Engine 上，为 GAppProxy 的客户端提供服务。
+服务端：这个是可选的。它运行在 Google App Engine(GAE) 上，为 GAppProxy 的客户端提供服务。
 
 您下载客户端后即可立即使用 GAppProxy 的代理，它会使用默认的 Fetch Server。但是基于以下理由，我们建议您架设自己的 Fetch Server：
 
@@ -39,12 +39,12 @@ GAppProxy 的代理分为两部分：
 
 ==5、GAppProxy 的代理安全吗？==
 
- * *GAppProxy提供的HTTPS服务并不安全，请特别注意*。
+ * *请特别注意：GAppProxy提供的HTTPS服务并不安全。* 因为GAE的局限性，GAppProxy提供的HTTPS服务实际是在GAE端将真正的HTTPS页面内容取下，然后编码传回，在客户端将其再度包装为HTTPS样子，所以中间网络上是可能侦听到你的数据内容的。而真正的HTTPS代理提供的是端到端的安全性，中间网络上是不可能获取实际数据内容。
 
 ==6、安全连接失败 / 安全证书有问题？==
 
- * 安全连接失败可能是因为您使用的Python或GAppProxy客户端版本过低。
+ * 安全连接失败可能是因为你使用的Python或GAppProxy客户端版本过低，Windows用户请将GAppProxy客户端更新到1.0.0beta或更高版本。
 
- * GAE平台并不支持数字证书验证，所以必然存在证书错误，继续浏览就是。
+ * GAE平台不支持数字证书验证，所以必然存在证书错误，继续浏览就是。
 
 To Be Continued...
