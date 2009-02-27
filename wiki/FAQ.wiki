@@ -33,8 +33,18 @@ GAppProxy 的代理分为两部分：
 
 ==4、怎么建自己的 Fetch Server？==
 
+ * Windows用户请参考此文章：http://groups.google.com/group/gappproxy/browse_thread/thread/fafe05eb15395c0
+ 
+ * Linux用户请参考此文章：http://groups.google.com/group/gappproxy/browse_thread/thread/3d0ad3dd6331311
+
 ==5、GAppProxy 的代理安全吗？==
 
+ * *GAppProxy提供的HTTPS服务并不安全，请特别注意*。
+
 ==6、安全连接失败 / 安全证书有问题？==
+
+ * 安全连接失败可能是因为您使用的Python或GAppProxy客户端版本过低。
+
+ * GAE平台并不支持数字证书验证，所以必然存在证书错误，继续浏览就是。
 
 To Be Continued...
