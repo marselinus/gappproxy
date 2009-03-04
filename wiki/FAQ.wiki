@@ -47,4 +47,25 @@ GAppProxy 的代理分为两部分：
 
  * GAE平台不支持数字证书验证，所以必然存在证书错误，继续浏览就是。
 
-To Be Continued...
+==7、出错了怎么办？==
+
+大部分情况都是提示信息，告诉您一些情况，您别看见出来一堆英文就怕怕呵呵。当然，也有的是错误。不管是提示还是错误，您只要阅读下输出的文字，大概都能明白是怎么回事。
+
+常见的有：
+
+{{{
+socket.error: (98, 'Address already in use')
+}}}
+已经有一个在运行了，不用再重复打开了。：）
+
+　
+
+{{{
+Message: Fetch server error, The target server may be down or not
+exist. Another possibility: try to request the URL directly.
+}}}
+您要使用代理访问的网站下线了，或者已经不存在了~。
+
+还有种可能是，某些国内的网站，因为某个原因 GAE 访问不到。既然是国内的网站，您就直接访问吧：）。
+
+主要是前一种情况。
