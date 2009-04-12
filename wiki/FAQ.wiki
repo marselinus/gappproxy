@@ -74,10 +74,15 @@ exist. Another possibility: try to request the URL directly.
 
 是的，有些网站无法使用 GAppProxy 代理登录。这是因为目标网站和 GAE 平台双重限制的原因，除非两者中有一方放松限制……。
 
-==9、无法下载文件？==
+==9、无法下载文件／观看视频？==
 
 同上。
 
  * GAE 限制文件大小上限为1MB。
 
  * 有些网站会把来自 GAE 的请求当着盗链，拒绝提供下载。
+
+
+==10、GAppProxy 的客户端在 python 3.0 下运行出错？==
+
+目前还不支持 py3.0，建议使用 2.6 的版本。 ：-）
