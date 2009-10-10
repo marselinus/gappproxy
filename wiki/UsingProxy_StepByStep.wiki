@@ -113,56 +113,14 @@ HTTP 代理: 127.0.0.1
 
        http://gappproxy.googlecode.com/svn/wiki/images/multiproxy-switch-status.png
 
-===　 2. !FoxyProxy ===
+===　 2. !AutoProxy ===
 
-       !MultiProxy Switch 的优点是简单方便，但也存在两个缺点：
+       专为国人设计的，自动化代理扩展。内置 GAppProxy 的信息，无需设置。
 
-　　　　1. 选择代理之后，所有的访问都将通过代理，即使是不需要的；
+       [http://www.autoproxy.org/zh-CN/]
 
-　　　　2. 根据不同的情况，可能需要在不同的代理，以及是否使用代理之间不断地进行切换。
 
-       使用 !FoxyProxy 完全可以避免这种不便，您再也不必手动在不同的代理之间进行切换。您访问任何网站，如果需要代理则会自动使用代理，否则就会直接连接。即使一个直接连接的网站引用了一个需要代理的网站的资源，!FoxyProxy 也能知晓这一点，并使用代理访问之。反之亦然。
-
-       !FoxyProxy 的安装地址是：https://addons.mozilla.org/zh-CN/firefox/addon/2464
-
-       安装后，它会询问您是否配置 !FoxyProxy 使用 Tor，根据实际选择即可。打开 !FoxyProxy 的界面，大概会是这个样子：
-
-       http://gappproxy.googlecode.com/svn/wiki/images/foxyproxy-options.png
-
-       请选择“新建代理服务器”，Name 和 Notes 都可以随便填。然后请选择“代理服务器细节”：
-
-       http://gappproxy.googlecode.com/svn/wiki/images/foxyproxy-setting-gappproxy-details.png
-
-   请记住 GAppProxy 的配置：
-{{{
-HTTP 代理: 127.0.0.1
-端口: 8000 
-}}}
-
-   至此，GAppProxy 就算配置完成了。但是，它还什么事情都不会做，因为您还没有告诉它，要它代理什么网站。所以……，请点击“模板”：
-
-   http://gappproxy.googlecode.com/svn/wiki/images/foxyproxy-setting-pattern.png
-
-   再点击“添加新模板”打开模板编辑窗口：
-
-   http://gappproxy.googlecode.com/svn/wiki/images/foxyproxy-setting-add-pattern.png
-
-   模板支持通配符和正则表达式。
-
-   通配符简单地来说，就是星号可以代表任何字符。比如，mozilla.org 下有很多页面，您可以用 "http://www.mozilla.org/*" 表示所有的 mozilla.org 页面都用代理访问。
-
-   正则式拥有更强大的表达能力，但也更复杂一点。可以参见以下页面：
-
-   （英文）http://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Reference:Global_Objects:RegExp
-
-   （中文，需要代理）http://zh.wikipedia.org/wiki/正则表达式
-
-   添加好模板后，请右键点击 !FoxyProxy 的状态栏图标，选择“使用基于其预定义模板的代理服务器”。
-
-   http://gappproxy.googlecode.com/svn/wiki/images/foxyproxy-switch-status.png
-
-   如此，设置终于彻底完成了！你尽可以随意去冲浪，不论是 mozilla.org 自身还是任何其它网站，只要引用了 mozilla.org 的资源都会使用代理访问，而其它的则直接连接。您不需要在不同代理之间手动切换。
-
-   当然，现实情况是，您肯定还有别的网站需要使用代理。也就是说，您需要按照刚刚添加模板的方法，再添加其它需要使用代理访问的站点。这也就是 !FoxyProxy 的一个美中不足，虽然强大却有点复杂。
-
+       [http://www.geektang.com/2009/03/autoproxy.html]
+　
+　
 =Enjoy :)=
