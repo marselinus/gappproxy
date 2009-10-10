@@ -112,10 +112,11 @@ HTTP 代理: 127.0.0.1
        它会在状态栏添加一个小图标，您随时可以通过这个图标选择使用哪个，或者是否使用代理：
 
        http://gappproxy.googlecode.com/svn/wiki/images/multiproxy-switch-status.png
-
+　
+　
 ===　 2. !AutoProxy ===
 
-       专为国人设计的，自动化代理扩展。内置 GAppProxy 的信息，无需设置。
+       专为国内网络环境设计，自动化代理扩展。内置 GAppProxy 的信息，无需设置。
 
        [http://www.autoproxy.org/zh-CN/]
 
