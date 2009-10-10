@@ -70,6 +70,21 @@ exist. Another possibility: try to request the URL directly.
 
 主要是前一种情况。
 
+　
+
+{{{
+Error response
+
+Error code 403.
+
+Message: Forbidden.
+
+Error code explanation: 403 = Request forbidden -- authorization will not help.
+}}}
+
+默认的／公共的 fetch server 流量超标了，建一个您自己的 fetch server 吧。
+
+
 ==8、无法登录网站？==
 
 是的，有些网站无法使用 GAppProxy 代理登录。这是因为目标网站和 GAE 平台双重限制的原因，除非两者中有一方放松限制……。
