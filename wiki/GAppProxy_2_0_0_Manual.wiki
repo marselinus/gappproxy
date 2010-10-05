@@ -26,7 +26,7 @@ http://gappproxy.googlecode.com/svn/wiki/images/2.0.0Manual/5.png
 http://gappproxy.googlecode.com/svn/wiki/images/2.0.0Manual/6.png
 
 ==部署GAppProxy服务器：==
-* 1，从GAppProxy项目下载页http://code.google.com/p/gappproxy/downloads/list 下载服务器源码包+自动部署工具，即uploader-2.0.0-win.zip。
+* 1，从GAppProxy项目下载页 http://code.google.com/p/gappproxy/downloads/list 下载服务器源码包+自动部署工具，即uploader-2.0.0-win.zip。
 
 * 2，解压下载文件，双击执行该目录下的uploader.exe，在AppID提示后输入刚才创建的app_id，然后分别按提示输入自己的gmail用户名和密码（注意，输入密码时不会有任何显示）：
 
@@ -41,7 +41,7 @@ http://gappproxy.googlecode.com/svn/wiki/images/2.0.0Manual/8.png
 http://gappproxy.googlecode.com/svn/wiki/images/2.0.0Manual/12.png
 
 ==安装客户端：==
-* 1，从GAppProxy项目下载页http://code.google.com/p/gappproxy/downloads/list 下载windows客户端，即localproxy-2.0.0-win.zip。
+* 1，从GAppProxy项目下载页 http://code.google.com/p/gappproxy/downloads/list 下载windows客户端，即localproxy-2.0.0-win.zip。
 
 * 2，解压下载文件，用记事本打开并修改该目录下的proxy.conf文件，增加如下图的最后一行，特别注意红字部分改成刚才创建的app_id。
 
