@@ -1,4 +1,4 @@
-﻿#summary GAppProxy安装使用说明
+﻿#summary GAppProxy-2.0.0安装使用说明
 #labels Featured,Phase-Deploy
 
 =GAppProxy-2.0.0安装使用手册=
