@@ -1,4 +1,6 @@
-﻿#labels Featured,Phase-Deploy
+﻿#summary GAppProxy安装使用说明
+#labels Featured,Phase-Deploy
+
 =GAppProxy-2.0.0安装使用手册=
 * GAppProxy基于Google App Engine，所以首先需要准备一个google账号（即gmail账号）。
 
