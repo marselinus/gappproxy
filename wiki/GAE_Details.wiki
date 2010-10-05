@@ -1,3 +1,4 @@
+#labels Deprecated
 =GAE相关的一些东西=
 
 GAE(Google App Engine)发布有官方文档,但用的时候觉得并不够详细,不少内容确少详细说明,把我了解到的一些内容和问题写在这里:
