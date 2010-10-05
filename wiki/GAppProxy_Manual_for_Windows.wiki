@@ -1,5 +1,5 @@
 ﻿#summary GAppProxy Windows客户端的使用说明
-#labels Featured,Phase-Deploy
+#labels Deprecated,Phase-Deploy
 
 =简介=
 为方便Windows用户使用，GAppProxy从svn r38版开始为其客户端（proxy.py）增加了一个简单图形界面（GUI）。该图形界面使用PyQt4编写，主要目的是避免Windows下的黑窗口（command）运行模式。
