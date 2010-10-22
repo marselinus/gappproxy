@@ -45,7 +45,7 @@ http://gappproxy.googlecode.com/svn/wiki/images/2.0.0Manual/12.png
 ==安装客户端：==
 * 1，从GAppProxy项目下载页 http://code.google.com/p/gappproxy/downloads/list 下载windows客户端，即localproxy-2.0.0-win.zip。
 
-* 2，解压下载文件，用记事本打开并修改该目录下的proxy.conf文件，增加如下图的最后一行，特别注意红字部分改成刚才创建的app_id。
+* 2，解压下载文件，用记事本打开并修改该目录下的proxy.conf文件，增加如下图的最后一行，特别注意红字部分改成刚才创建的app_id，另外注意这行前面没有“#”。
 
 http://gappproxy.googlecode.com/svn/wiki/images/2.0.0Manual/9.png
 
